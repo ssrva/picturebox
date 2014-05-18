@@ -27,7 +27,7 @@ This plugin is very easy to implement. Just make sure that the images folder, pi
   &lt;script src = "includes/jquery.js"&gt;$lt;/script&gt;
   &lt;script src = "includes/picturebox.js"&gt;$lt;/script&gt;
   &lt;div class = "lightbox"&gt;
-    <!-- Your Images Here -->
+    //Your Images Here
   &lt;/div&gt;
 </pre>
 
