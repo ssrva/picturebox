@@ -23,12 +23,15 @@ Live Demo : <a href = "http://cyberfreax.com/index.php#demo">Demo</a>
 This plugin is very easy to implement. Just make sure that the images folder, picturebox.js and picturebox.css files are on the same directory.
 
 <pre>
-  $lt;link rel = "stylesheet" href = "includes/picturebox.css"$gt;
-  $lt;script src = "includes/jquery.js"&gt;$lt;/script$gt;
-  $lt;script src = "includes/picturebox.js"&gt;$lt;/script$gt;
+  &lt;link rel = "stylesheet" href = "includes/picturebox.css"&gt;
+  &lt;script src = "includes/jquery.js"&gt;$lt;/script&gt;
+  &lt;script src = "includes/picturebox.js"&gt;$lt;/script&gt;
   &lt;div class = "lightbox"&gt;
     <!-- Your Images Here -->
   &lt;/div&gt;
 </pre>
 
 To put it much simpler just wrap every image that you want to view in the lightbox with a div of class lightbox. Simple as that !
+<hr>
+
+Developer: <a href = "http://cyberfreax.com">Srivathsan</a>
