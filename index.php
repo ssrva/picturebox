@@ -50,8 +50,8 @@
 <!-- Only This Div Produces the Lightbox. Cool right ?-->
 <div class = "lightbox">
 	<img src = "sample/1.jpg" height = "150px">
+	<img src = "sample/2.jpg" height = "150px">
 	<img src = "sample/3.jpg" height = "150px">
-	<img src = "sample/4.jpg" height = "150px">
 </div>
 
 </body>
