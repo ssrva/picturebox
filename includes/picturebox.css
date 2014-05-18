@@ -1,0 +1,108 @@
+.lightboxview {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(2,2,2,0.8);
+	display: none;
+	z-index: 8;
+}
+
+.lightbox img {
+	cursor: pointer;
+}
+
+#left {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 10;
+}
+
+#right {
+	position: absolute;
+	display: none;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 10;
+}
+
+#limage {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 90%;
+	max-height: 90%;
+	top: 5%;
+	bottom: 5%;	
+	
+}
+	#limage img {
+		border: #222 solid 5px;
+	}
+	
+.opacity{
+	opacity: 0;
+}
+.overlay{
+	background-color: #000;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.close {
+	display: none;
+	position: absolute;
+	top: 2%;
+	right: 1%;
+	border-radius: 20px;
+	z-index: 15;
+	cursor: pointer;
+	width: 28px;
+	height: 28px;
+	opacity: 0.7;
+}
+
+.shadow{
+	opacity: 1;
+	-moz-box-shadow: 1px 0px 10px 1px #fff;
+	-webkit-box-shadow: 1px 0px 10px 1px #fff;
+	box-shadow: 1px 0px 10px 1px #fff;
+}
+
+.leftarrow {
+	cursor: pointer;
+	position: absolute;
+	top: 48%;
+	bottom: 48%;
+	left: 2%;
+	height: 28px;
+	width: 28px;
+}
+	.leftarrow img{
+		opacity: 0.7;
+		border-radius: 20px;
+	}
+.rightarrow {
+	cursor: pointer;
+	position: absolute;
+	top: 48%;
+	bottom: 48%;
+	right: 2%;
+	height: 28px;
+	width: 28px;
+}
+	.rightarrow img {
+		opacity: 0.7;
+		border-radius: 20px;
+	}
+	
